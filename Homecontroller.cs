@@ -15,7 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        histórico histórico1 = new histórico(01, "2.3", "back-end", "Ryan Chrystian Da Silva Marques");
+        histórico histórico1 = new histórico(01, "2.3", "back-end", "Maria Eduarda de Nascimento da Silva");
         List<histórico> listahistórico  = new List<histórico>();
         listahistórico.Add(histórico1);
         ViewBag.listahistórico = listahistórico;
